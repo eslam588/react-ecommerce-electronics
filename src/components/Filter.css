@@ -1,0 +1,49 @@
+.filter
+{
+  display: flex;
+  padding:1rem ;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div{
+  flex:1;
+}
+
+
+.filtered input{
+  border-radius: 15px;
+  
+  border-color: teal;
+  padding:15px;
+  font-size:15px;
+  outline:none;
+  
+}
+
+.filter-sort select {
+  border-radius: 15px;
+  padding:15px;
+  border: 2px solid teal;
+  
+
+}
+.filter-sort select option {
+  font-size:15px;
+}
+
+.filter-size select {
+  border-radius: 15px;
+  padding:15px;
+  border: 2px solid teal;
+}
+
+.filter-size select option {
+  font-size:15px;
+}
+
+.filter-sort span , .filter-size span
+{
+  font-weight: bold;
+  font-size: 20px
+}
